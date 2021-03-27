@@ -25,26 +25,29 @@
         android:id="@+id/button1"
         android:layout_width="316dp"
         android:layout_height="214dp"
-        android:layout_marginTop="72dp"
         android:onClick="btn1Click"
         android:text="30"
         android:textSize="120dp"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:strokeColor="#FFFFFF" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="316dp"
         android:layout_height="214dp"
-        android:layout_marginTop="60dp"
         android:onClick="btn2Click"
         android:text="40"
         android:textSize="120dp"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintVertical_bias="0.25" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
